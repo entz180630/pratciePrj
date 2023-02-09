@@ -8,7 +8,7 @@ class Parsing extends CI_Controller {
                 $data = '';
 
                 $url = "http://depart2.studio.takeone.co.kr/pucca/buildqa/v1/packet";
-                $data = file_get_contents($url);
+                $data = file_get_html($url);
                 echo $data;
         }
 
