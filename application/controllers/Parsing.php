@@ -4,8 +4,9 @@ include APPPATH . 'third_party/simple_html_dom.php';
 
 class Parsing extends CI_Controller {
        
-        public function phpinfo(){
+        public function crolling(){
                 $data = file_get_html("https://naver.com");
+                echo $data;
         }
 
 }
