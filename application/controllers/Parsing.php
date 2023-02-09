@@ -8,7 +8,7 @@ class Parsing extends CI_Controller {
                 $data = '';
 
                 // $url = "http://172.27.10.6:80/pucca/buildqa/v1/packet";
-                $url = "https://www.kebhana.com/cont/mall/mall15/mall1501/index.jsp?_menuNo=23100&#35;//HanaBank";
+                $url = "http://depart2.studio.takeone.co.kr:3000";
                 $data = file_get_html($url);
                 var_dump($data);
         }
