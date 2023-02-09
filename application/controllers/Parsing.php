@@ -10,7 +10,7 @@ class Parsing extends CI_Controller {
                 // $url = "http://172.27.10.6:80/pucca/buildqa/v1/packet";
                 $url = "https://www.kebhana.com/cont/mall/mall15/mall1501/index.jsp?_menuNo=23100&#35;//HanaBank";
                 $data = file_get_contents($url);
-                echo $data;
+                var_dump($data);
         }
 
 }
