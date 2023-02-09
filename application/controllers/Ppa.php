@@ -8,7 +8,7 @@ class Ppa extends CI_Controller {
                 echo "page is ppa at vscode use git";
         }
 
-        publci function ppa_page2(){
+        public function ppa_page2(){
                 echo "page is 2";
         }
 }
